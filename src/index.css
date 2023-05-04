@@ -1,13 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.mobile-menu-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.mobile-menu-button:focus {
+  outline: none;
+}
+
+.mobile-menu-button svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1a202c;
+  z-index: 9999;
+  overflow-y: auto;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  border-bottom: 1px solid #4a5568;
+}
+
+.mobile-menu a:hover {
+  background-color: #2d3748;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
