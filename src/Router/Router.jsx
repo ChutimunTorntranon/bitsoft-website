@@ -9,17 +9,19 @@ import Promote from "../page/Promote/Promote";
 import Solution from "../page/Solution/Solution";
 import About from "../page/About/About";
 import Contact from "../page/Contact/Contact";
+import Navbar from "../layout/Navbar";
 function Router() {
   return (
     <>
       {/* <ContactBar /> */}
-      <Navbar2 />
+      {/* <Navbar2 /> */}
+      <Navbar />
       {/* <Homepage /> */}
       {/* <Servicepage /> */}
       {/* <Promote /> */}
       {/* <Solution /> */}
       {/* <Product /> */}
-      {/* <About /> */}
+      <About />
       <Contact />
     </>
   );
