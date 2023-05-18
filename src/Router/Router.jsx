@@ -10,6 +10,7 @@ import About from "../page/About/About";
 import Contact from "../page/Contact/Contact";
 import Navbar from "../layout/Navbar";
 import NewNavbar from "../layout/newNavbar/NewNavbar";
+
 function Router() {
   return (
     <>
