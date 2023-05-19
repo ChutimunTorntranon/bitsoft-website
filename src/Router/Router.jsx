@@ -10,11 +10,22 @@ import About from "../page/About/About";
 import Contact from "../page/Contact/Contact";
 import Navbar from "../layout/Navbar";
 import NewNavbar from "../layout/newNavbar/NewNavbar";
+import Footer from "../layout/footer/Footer";
 
 function Router() {
   return (
     <>
       <NewNavbar />
+      <Footer />
+      <Routes>
+        <>
+          {/* <Route path="/" element={<Homepage />} /> */}
+          {/* <Route path="/Solution" element={<Solution />} /> */}
+          {/* <Route path="/Product" element={<Product />} /> */}
+          {/* <Route path="/AboutUs" element={<About />} /> */}
+          {/* <Route path="/Contact" element={<Contact />} /> */}
+        </>
+      </Routes>
       {/* <ContactBar /> */}
       {/* <Navbar2 /> */}
       {/* <Navbar /> */}
