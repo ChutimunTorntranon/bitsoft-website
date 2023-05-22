@@ -15,7 +15,7 @@ import Footer from "../layout/footer/Footer";
 function Router() {
   return (
     <>
-      {/* <NewNavbar /> */}
+      <NewNavbar />
       <Routes>
         <>
           <Route path="/" element={<Homepage />} />
