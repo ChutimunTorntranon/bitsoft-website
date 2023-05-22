@@ -1,10 +1,10 @@
 import React from "react";
 import "./Homepage.css";
-// import Servicepage from "../service/Servicepage";
+import Servicepage from "../service/Servicepage";
 // import Promote from "../Promote/Promote";
 function Homepage() {
   return (
-    <div className="background-p1 bg-cover bg-center xl:w-full xl:h-screen w-screen h-[20rem]">
+    <div className="background-p1 bg-auto bg-center xl:w-full xl:h-screen w-screen h-[20rem]">
       <div className="text-white grid grid-cols-2 h-[20rem] mx-auto">
         <div className="grid grid-cols-2 mx-[60%] xl:mx-[60%] xl:w-full xl:h-screen h-[15rem]">
           <div className="w-full"></div>
@@ -22,7 +22,7 @@ function Homepage() {
           </div>
         </div>
       </div>
-      {/* <Servicepage /> */}
+      <Servicepage />
       {/* <Promote /> */}
     </div>
   );
