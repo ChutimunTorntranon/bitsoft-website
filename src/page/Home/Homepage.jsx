@@ -1,13 +1,13 @@
 import React from "react";
 import "./Homepage.css";
-import Servicepage from "../service/Servicepage";
-import Promote from "../Promote/Promote";
+// import Servicepage from "../service/Servicepage";
+// import Promote from "../Promote/Promote";
 function Homepage() {
   return (
     <div className="background-p1 w-full h-screen">
       <div className="text-white grid grid-cols-2 h-screen mx-auto">
         <div className="mx-auto my-auto "></div>
-        <div className="mx-auto my-auto w-full bg-[#3363F3] opacity-[65%] h-full">
+        <div className="mx-auto my-auto w-full sm:bg-[#3363F3] opacity-[65%]">
           <div className="mx-10 mt-[20%]">
             <div className="text-[3.563rem]">ยินดีต้อนรับสู่</div>
             <div className="xl:text-[7rem] text-[3.563rem]">BITSOFT</div>
@@ -16,8 +16,8 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <Servicepage />
-      <Promote />
+      {/* <Servicepage /> */}
+      {/* <Promote /> */}
     </div>
   );
 }

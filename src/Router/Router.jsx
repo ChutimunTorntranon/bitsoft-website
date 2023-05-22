@@ -15,27 +15,16 @@ import Footer from "../layout/footer/Footer";
 function Router() {
   return (
     <>
-      <NewNavbar />
-      <Footer />
+      {/* <NewNavbar /> */}
       <Routes>
         <>
-          {/* <Route path="/" element={<Homepage />} /> */}
+          <Route path="/" element={<Homepage />} />
           {/* <Route path="/Solution" element={<Solution />} /> */}
           {/* <Route path="/Product" element={<Product />} /> */}
           {/* <Route path="/AboutUs" element={<About />} /> */}
           {/* <Route path="/Contact" element={<Contact />} /> */}
         </>
       </Routes>
-      {/* <ContactBar /> */}
-      {/* <Navbar2 /> */}
-      {/* <Navbar /> */}
-      {/* <Homepage /> */}
-      {/* <Servicepage /> */}
-      {/* <Promote /> */}
-      {/* <Solution /> */}
-      {/* <Product /> */}
-      {/* <About /> */}
-      {/* <Contact /> */}
     </>
   );
 }
