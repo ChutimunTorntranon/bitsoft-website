@@ -4,18 +4,18 @@ function Component3() {
   return (
     <div>
       <div className="grid grid-cols-2 container mx-auto mt-[-8rem]">
-        <div className="mx-auto my-auto marker:container text-left font-extrabold text-[2.625rem] text-[#FF4C4C]">
+        <div className="mt-40 xl:mx-auto xl:my-auto marker:container text-left font-extrabold xl:text-[2.625rem] text-[1rem] text-[#FF4C4C]">
           ลดต้นทุนค่าใช้จ่าย
           <br />
           <span className="text-[#14357E]">ในการบริหารจัดการ</span>
-          <p className="text-[#14357E] text-left text-[1.5rem]">
+          <p className="text-[#14357E] text-left xl:text-[1.5rem] text-[0.75rem]">
             <span className="text-[#FF4C4C]">cost reduction</span>
           </p>
         </div>
-        <div className="mx-8 my-20">
+        <div className="xl:mx-8 xl:my-20 mt-36">
           <div>
             <img
-              className="mx-auto hover:scale-110 duration-1000"
+              className="mx-auto xl:hover:scale-110 xl:duration-1000"
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/Saving+money-amico+1.png"
               alt=""
             />
