@@ -8,7 +8,7 @@ function NewNavbar() {
     navRef.current.classList.toggle("responsive_nav");
   };
   return (
-    <header className="">
+    <header className="w-screen">
       <img
         src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/logo+remove+bg.png"
         alt=""
