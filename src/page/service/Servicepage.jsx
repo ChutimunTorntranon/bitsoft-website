@@ -5,11 +5,11 @@ function Servicepage() {
       <div className="mx-auto container text-center font-extrabold text-[2.625rem] text-[#14357E]">
         SERVICES
       </div>
-      <div className="w-full h-full grid xl:grid-cols-3 grid-cols-3 xl:gap-0 xl:container xl:my-20 xl:mx-auto">
+      <div className="h-full grid xl:grid-cols-3 grid-cols-3 xl:gap-0 gap-12 -ml-10 xl:my-20 xl:mx-auto w-auto xl:container">
         <div className="mx-auto my-auto mt-3 xl:mt-0">
           <div
             trigger="hover"
-            className="xl:mt-10 bg-gray-100 xl:w-[19.375rem] xl:h-[31.125rem] w-[5.2rem] h-[9rem] rounded-3xl p-3 stroke-slate-300 xl:hover:shadow-2xl xl:duration-1000 xl:hover:scale-110 xl:hover:shadow-[#3363F3]"
+            className="xl:mt-10 bg-gray-100 xl:w-[19.375rem] xl:h-[31.125rem] w-[5.75rem] h-[10rem] rounded-3xl p-3 stroke-slate-300 xl:hover:shadow-2xl xl:duration-1000 xl:hover:scale-110 xl:hover:shadow-[#3363F3]"
           >
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/Static+website-amico.png"
@@ -27,7 +27,7 @@ function Servicepage() {
           {" "}
           <div
             trigger="hover"
-            className="xl:mt-10 bg-gray-100  xl:w-[19.375rem] xl:h-[31.125rem]  w-[5.2rem] h-[9rem] rounded-3xl p-3 stroke-slate-300 xl:hover:shadow-2xl xl:duration-1000 xl:hover:scale-110 xl:hover:shadow-[#3363F3]"
+            className="xl:mt-10 bg-gray-100  xl:w-[19.375rem] xl:h-[31.125rem]  w-[5.75rem] h-[10rem] rounded-3xl p-3 stroke-slate-300 xl:hover:shadow-2xl xl:duration-1000 xl:hover:scale-110 xl:hover:shadow-[#3363F3]"
           >
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/New+notifications-amico.png"
@@ -45,7 +45,7 @@ function Servicepage() {
           {" "}
           <div
             trigger="hover"
-            className="xl:mt-10 bg-gray-100 xl:w-[19.375rem] xl:h-[31.125rem] w-[5.2rem] h-[9rem] rounded-3xl p-3 stroke-slate-300 xl:hover:shadow-2xl xl:duration-1000 xl:hover:scale-110 xl:hover:shadow-[#3363F3]"
+            className="xl:mt-10 bg-gray-100 xl:w-[19.375rem] xl:h-[31.125rem] w-[5.75rem] h-[10rem] rounded-3xl p-3 stroke-slate-300 xl:hover:shadow-2xl xl:duration-1000 xl:hover:scale-110 xl:hover:shadow-[#3363F3]"
           >
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/Online+report-amico.png"

@@ -9,7 +9,7 @@ function Promote() {
     <div className="background-p2 w-full p-16">
       <div className="mx-auto container text-center font-extrabold xl:text-[2.625rem] text-[1rem] text-[#14357E] p-5 mt-[-30px]">
         ครบจบ<span className="text-[#FF4C4C]">Software</span>ในที่เดียว
-        <div className="text-[1.375rem] w-96 xl:mx-[34rem] mx-[-5rem]">
+        <div className="text-[1.375rem] w-72 xl:mx-[34rem] -ml-10">
           All-in-One <span className="text-[#FF4C4C]">Software Solution</span>
         </div>
       </div>
