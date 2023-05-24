@@ -18,7 +18,7 @@ function NewNavbar() {
       <nav ref={navRef}>
         <Link to="/#">Home</Link>
         <Link to="/Product">MyProduct</Link>
-        <Link to="/Solution">Solution</Link>
+        <Link to="/Service">Service</Link>
         <Link to="/AboutUs">About Us</Link>
         <Link to="/Contact">Contact</Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>

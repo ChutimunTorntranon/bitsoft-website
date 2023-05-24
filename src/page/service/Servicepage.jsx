@@ -1,8 +1,8 @@
 import React from "react";
 function Servicepage() {
   return (
-    <div className="background-p2 bg-cover w-full xl:h-screen h-[18rem] p-16 xl:mt-[25rem] 2xl:mt-[35rem]">
-      <div className="mx-auto container text-center font-extrabold text-[2.625rem] text-[#14357E]">
+    <div className="2xl:background-p2 xl:background-p2 bg-mobile bg-cover w-full xl:h-screen h-[18rem] p-16 xl:mt-[25rem] 2xl:mt-[35rem] mt-36">
+      <div className="mx-auto container text-center font-extrabold text-[2.625rem] text-[#14357E] -mt-10">
         SERVICES
       </div>
       <div className="h-full grid xl:grid-cols-3 grid-cols-3 xl:gap-0 gap-12 -ml-10 xl:my-20 xl:mx-auto w-auto xl:container">
