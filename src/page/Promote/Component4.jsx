@@ -13,14 +13,14 @@ function Component4() {
             />
           </div>
         </div>
-        <div className="xl:mx-auto xl:my-auto mt-[9rem] marker:container text-right font-extrabold xl:text-[2.625rem] text-[1rem] text-[#FF4C4C]">
+        <div className="xl:mx-auto xl:my-auto mt-[9rem] marker:container text-right font-extrabold xl:text-[2.625rem] md:text-[1.40rem] text-[1rem] text-[#FF4C4C] md:mt-[17rem]">
           ยกเลิกการใช้กระดาษ
           <br />
           <span className="text-[#14357E]">สามารถจัดเก็บข้อมูลผ่าน</span>
           <br />
           <span className="text-[#FF4C4C]">Cloud Server</span>{" "}
           <span className="text-[#14357E]">ได้เลย</span>
-          <p className="text-[#FF4C4C] xl:text-[1.5rem] text-[0.75rem]">
+          <p className="text-[#FF4C4C] xl:text-[1.5rem] md:text-[0.9rem] text-[0.75rem]">
             paperless
           </p>
         </div>

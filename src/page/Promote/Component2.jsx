@@ -13,12 +13,12 @@ function Component2() {
             />
           </div>
         </div>
-        <div className="xl:mx-auto xl:my-auto mt-24 marker:container text-right font-extrabold xl:text-[2.625rem] text-[1rem] text-[#14357E]">
+        <div className="xl:mx-auto xl:my-auto mt-24 marker:container text-right font-extrabold xl:text-[2.625rem] md:text-[1.40rem] text-[1rem] text-[#14357E] md:mt-[13rem]">
           แก้ไขปัญหาต่างๆที่เกิดจาก
           <br />
           <span className="text-[#FF4C4C]">Software</span> และ{" "}
           <span className="text-[#FF4C4C]">Custom</span>ได้ทันที
-          <p className="text-[#14357E] text-right xl:text-[1.5rem] text-[0.75rem]">
+          <p className="text-[#14357E] text-right xl:text-[1.5rem] md:text-[0.9rem] text-[0.75rem]">
             <span className="text-[#FF4C4C]">Customization</span> and{" "}
             <span className="text-[#FF4C4C]">Solution</span>
           </p>

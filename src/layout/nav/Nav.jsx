@@ -6,11 +6,11 @@ function Nav() {
     <div className="Navbar">
       <span className="nav-logo">BitSoft Logo</span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/service">Service</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <a href="/">Home</a>
+        <a href="/Product">Product</a>
+        <a href="/Service">Service</a>
+        <a href="/AboutUs">About</a>
+        <a href="/Contact">Contact</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

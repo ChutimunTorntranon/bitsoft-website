@@ -4,12 +4,14 @@ function Component3() {
   return (
     <div>
       <div className="grid grid-cols-2 container mx-auto mt-[-8rem]">
-        <div className="mt-40 xl:mx-auto xl:my-auto marker:container text-left font-extrabold xl:text-[2.625rem] text-[1rem] text-[#FF4C4C]">
+        <div className="mt-40 xl:mx-auto xl:my-auto marker:container text-left font-extrabold xl:text-[2.625rem] md:text-[1.40rem] text-[1rem] text-[#FF4C4C] md:mt-[16rem]">
           ลดต้นทุนค่าใช้จ่าย
           <br />
           <span className="text-[#14357E]">ในการบริหารจัดการ</span>
           <p className="text-[#14357E] text-left xl:text-[1.5rem] text-[0.75rem]">
-            <span className="text-[#FF4C4C]">cost reduction</span>
+            <span className="text-[#FF4C4C] md:text-[0.9rem]">
+              cost reduction
+            </span>
           </p>
         </div>
         <div className="xl:mx-8 xl:my-20 mt-36">
