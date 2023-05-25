@@ -13,6 +13,7 @@ import NewNavbar from "../layout/newNavbar/NewNavbar";
 import Footer from "../layout/footer/Footer";
 import ServiceMobile from "../page/service/ServiceMobile";
 import Nav from "../layout/nav/Nav";
+import Team from "../page/About/Team";
 function Router() {
   return (
     <>
