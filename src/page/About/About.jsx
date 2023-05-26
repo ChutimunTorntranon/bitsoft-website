@@ -2,10 +2,11 @@ import React from "react";
 import "../Home/Homepage.css";
 import Team from "./Team";
 import Footer from "../../layout/footer/Footer";
+import FooterAbout from "../../layout/footer/FooterAbout";
 function About() {
   return (
     <>
-      <div className="background-p4 xl:w-full w-full xl:h-full h-[110rem] xl:p-16 p-5">
+      <div className="background-p5-about xl:w-full w-full xl:h-full h-[110rem] xl:p-16 p-5">
         <div className="container mx-auto h-[0rem]"></div>
         <div className="grid grid-cols-2 container gap-5 mx-auto mt-6">
           <div className="text-[#fefefe]">
@@ -35,7 +36,7 @@ function About() {
         </div>
         <Team />
       </div>
-      <Footer />
+      <FooterAbout />
     </>
   );
 }

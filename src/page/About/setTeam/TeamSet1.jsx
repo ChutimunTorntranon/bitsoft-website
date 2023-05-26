@@ -3,7 +3,7 @@ import React from "react";
 function TeamSet1() {
   return (
     <div className="grid xl:grid-cols-4 grid-cols-1 container mx-auto">
-      <div className="w-full h-screen">
+      <div className="w-full">
         <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto xl:-mt-[5rem]">
           <div className="relative mt-1 xl:top-[10rem]">
             <img
@@ -12,7 +12,7 @@ function TeamSet1() {
               alt="ImgCeo"
             />
           </div>
-          <div className="xl:w-[13.438rem] xl:h-[7.438rem] w-[10rem] h-[8rem]  bg-white xl:mx-auto mx-auto xl:rounded-3xl xl:my-[7.5rem] text-center -mt-[2.25rem] text-black text-[0.75rem] rounded-md xl:font-bold">
+          <div className="xl:w-[13.438rem] xl:h-[7.438rem] w-[10rem] h-[8rem]  bg-white xl:mx-auto mx-auto xl:rounded-3xl xl:my-[7.5rem] text-center -mt-[2.25rem] text-black text-[0.75rem] rounded-md xl:font-bold font-bold">
             <div className="w-8 h-10"></div>
             <p className="p-1">Bhon Bunnag</p>
             <p className="p-1">(Phon)</p>
@@ -27,7 +27,7 @@ function TeamSet1() {
               alt="ImgCeo"
             />
           </div>
-          <div className="xl:relative xl:top-[13.65rem] xl:left-[20rem] xl:w-[13.438rem] xl:h-[7.438rem] w-[10rem] h-[8rem]  bg-white xl:mx-auto mx-auto xl:rounded-3xl xl:my-[7.5rem] text-center -mt-[2.25rem] text-black xl:font-bold text-[0.75rem] rounded-md">
+          <div className="xl:relative xl:top-[13.65rem] xl:left-[20rem] xl:w-[13.438rem] xl:h-[7.438rem] w-[10rem] h-[8rem]  bg-white xl:mx-auto mx-auto xl:rounded-3xl xl:my-[7.5rem] text-center -mt-[2.25rem] text-black xl:font-bold font-bold text-[0.75rem] rounded-md">
             <div className="w-8 h-10"></div>
             <p className="p-1">Prakrit Yoophon</p>
             <p className="p-1"> (Hnuy)</p>
@@ -42,7 +42,7 @@ function TeamSet1() {
               alt="ImgCeo"
             />
           </div>
-          <div className="xl:relative xl:top-[27.15rem] xl:left-[40rem] xl:w-[13.438rem] xl:h-[7.438rem] w-[10rem] h-[8rem]  bg-white xl:mx-auto mx-auto xl:rounded-3xl xl:my-[7.5rem] text-center -mt-[2.25rem] text-black text-[0.75rem] rounded-md xl:font-bold">
+          <div className="xl:relative xl:top-[27.15rem] xl:left-[40rem] xl:w-[13.438rem] xl:h-[7.438rem] w-[10rem] h-[8rem]  bg-white xl:mx-auto mx-auto xl:rounded-3xl xl:my-[7.5rem] text-center -mt-[2.25rem] text-black text-[0.75rem] rounded-md xl:font-bold font-bold">
             <div className="w-8 h-10"></div>
             <p className="p-1">Natthanan Morasuk </p>
             <p className="p-1">(Golf)</p>
@@ -57,7 +57,7 @@ function TeamSet1() {
               alt="ImgCeo"
             />
           </div>
-          <div className="xl:relative  xl:top-[40.6rem] xl:left-[60rem] xl:w-[13.438rem] xl:h-[7.438rem] w-[10rem] h-[8rem]  bg-white xl:mx-auto mx-auto xl:rounded-3xl xl:my-[7.5rem] text-center -mt-[2.25rem] text-black text-[0.75rem] rounded-md xl:font-bold">
+          <div className="xl:relative  xl:top-[40.6rem] xl:left-[60rem] xl:w-[13.438rem] xl:h-[7.438rem] w-[10rem] h-[8rem]  bg-white xl:mx-auto mx-auto xl:rounded-3xl xl:my-[7.5rem] text-center -mt-[2.25rem] text-black text-[0.75rem] rounded-md xl:font-bold font-bold">
             <div className="w-8 h-10"></div>
             <p className="p-1">Noramon Thiamtaveesin </p>
             <p className="p-1">(Nook)</p>

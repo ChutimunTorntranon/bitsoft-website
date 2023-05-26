@@ -2,7 +2,7 @@ import React from "react";
 function Servicepage() {
   return (
     <div className="2xl:background-p2 xl:background-p2 bg-mobile bg-cover w-full xl:h-screen h-[18rem] p-16 md:mt-[10rem] xl:mt-[34.15rem] 2xl:mt-[30rem] mt-36">
-      <div className="mx-auto container text-center font-extrabold md:text-[2rem] text-[2.625rem] text-[#14357E] -mt-10">
+      <div className="mx-auto container text-center font-extrabold xl:text-[3.25rem] md:text-[2rem] text-[2.625rem] text-[#14357E] ">
         SERVICES
       </div>
       <div className="h-full grid xl:grid-cols-3 grid-cols-3 xl:gap-0 gap-12 md:mx-auto -ml-10 xl:my-20 xl:mx-auto w-auto xl:container">

@@ -3,11 +3,11 @@ import Footer from "../../layout/footer/Footer";
 function ServiceMobile() {
   return (
     <>
-      <div className="2xl:background-p2 xl:background-p2 bg-mobile bg-contain w-full xl:h-[41rem]">
-        <div className="mx-auto container text-center font-extrabold text-[1.625rem] text-[#14357E] xl:mt-0 relative top-5">
+      <div className="2xl:background-p2 xl:background-p2 bg-mobile bg-contain w-full xl:h-[42.5rem]">
+        <div className="mx-auto container text-center font-extrabold text-[1.625rem] text-[#14357E] xl:mt-0 relative top-10">
           SERVICES
         </div>
-        <div className="grid xl:grid-cols-3 grid-cols-1 xl:gap-0 xl:mx-auto xl:container relative top-5 mb-8">
+        <div className="grid xl:grid-cols-3 grid-cols-1 xl:gap-0 xl:mx-auto xl:container relative top-10 mb-8">
           <div className="mx-auto my-auto mt-3 xl:mt-0">
             <div
               trigger="hover"
