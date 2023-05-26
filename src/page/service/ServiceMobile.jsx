@@ -7,7 +7,7 @@ function ServiceMobile() {
         <div className="mx-auto container text-center font-extrabold text-[1.625rem] text-[#14357E] xl:mt-0 relative top-10">
           SERVICES
         </div>
-        <div className="grid xl:grid-cols-3 grid-cols-1 xl:gap-0 xl:mx-auto xl:container relative top-10 mb-8">
+        <div className="grid xl:grid-cols-3 grid-cols-1 xl:gap-0 xl:mx-auto xl:container relative top-10 mb-8 p-5">
           <div className="mx-auto my-auto mt-3 xl:mt-0">
             <div
               trigger="hover"
