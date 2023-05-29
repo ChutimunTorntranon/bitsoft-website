@@ -2,11 +2,11 @@ import React from "react";
 function Servicepage() {
   return (
     <div className="2xl:background-p2 xl:background-p2 bg-mobile bg-cover w-full xl:h-screen h-[18rem] p-16 md:mt-[10rem] xl:mt-[34.15rem] 2xl:mt-[30rem] mt-36">
-      <div className="mx-auto container text-center font-extrabold xl:text-[3.25rem] md:text-[2rem] text-[2.625rem] text-[#14357E] relative -top-10">
+      <div className="mx-auto container text-center font-extrabold xl:text-[3.25rem] md:text-[2rem] text-[2.625rem] text-[#14357E] xl:relative xl:top-5 relative -top-10">
         SERVICES
       </div>
-      <div className="h-full grid xl:grid-cols-3 grid-cols-3 xl:gap-0 gap-12 md:mx-auto -ml-10 xl:my-20 xl:mx-auto w-auto xl:container">
-        <div className="mx-auto my-auto mt-3 xl:mt-0">
+      <div className="h-full grid xl:grid-cols-3 grid-cols-3 xl:gap-0 gap-12 md:mx-auto -ml-10 xl:my-20 xl:mx-auto w-auto xl:container relative -top-5 ">
+        <div className="mx-auto my-auto xl:mt-0">
           <div
             trigger="hover"
             className="xl:mt-10 bg-gray-100 xl:w-[19.375rem] xl:h-[31.125rem] md:w-[10rem] md:h-[15rem] w-[5.75rem] h-[10rem] rounded-3xl p-3 stroke-slate-300 xl:hover:shadow-2xl xl:duration-1000 xl:hover:scale-110 xl:hover:shadow-[#3363F3]"
@@ -23,7 +23,7 @@ function Servicepage() {
             </div>
           </div>
         </div>
-        <div className="mx-auto my-auto mt-3 xl:mt-0">
+        <div className="mx-auto my-auto xl:mt-0">
           {" "}
           <div
             trigger="hover"
@@ -41,7 +41,7 @@ function Servicepage() {
             </div>
           </div>
         </div>
-        <div className="mx-auto my-auto mt-3 xl:mt-0">
+        <div className="mx-auto my-auto xl:mt-0">
           {" "}
           <div
             trigger="hover"
