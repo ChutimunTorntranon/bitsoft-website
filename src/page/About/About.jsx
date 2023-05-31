@@ -1,7 +1,7 @@
 import React from "react";
 import "../Home/Homepage.css";
 import Team from "./Team";
-import FooterAbout from "../../layout/footer/FooterAbout";
+import Footer from "../../layout/footer/Footer";
 function About() {
   return (
     <>
@@ -10,13 +10,13 @@ function About() {
         <div className="grid grid-cols-2 container gap-5 mx-auto mt-6 relative top-10">
           <div className="text-[#fefefe]">
             <p className="text-center xl:text-[2.625rem] text-[1.25rem] xl:mt-[8rem]">
-              We are <span className="text-[#F9CC07]">BitSoft</span>
+              We are <span className="text-[#F9CC07]">BITSOFT</span>
             </p>
             <p className="text-center xl:text-[1.5rem] text-[0.5rem]">
               {" "}
-              เราคือผู้พัฒนาด้าน <br />
+              เราคือผู้พัฒนาด้าน
               <span className="text-[#F9CC07] xl:text-[1.5rem]  text-[0.5rem]">
-                Software Development
+                &nbsp;Software Development
               </span>
               <br />
               ที่สร้างเทคโนโลยีใหม่ๆ เพื่อมาพัฒนาคุณภาพ และ
@@ -35,7 +35,7 @@ function About() {
         </div>
         <Team />
       </div>
-      <FooterAbout />
+      <Footer />
     </>
   );
 }

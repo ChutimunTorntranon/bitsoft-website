@@ -29,7 +29,7 @@
 
 .Navbar > .nav-items > a:hover {
   opacity: 1;
-  background-color: #000000;
+  background-color: #3366f3;
   color: #ffffff;
   transition: 0.5s;
   padding: 10px;
@@ -43,7 +43,6 @@
   bottom: 0;
   width: 0;
   height: 2px;
-  background: #ffffff;
   transition: all 0.45s;
 }
 

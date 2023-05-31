@@ -9,10 +9,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_654ho8k",
-        "template_hnft2tu",
+        "service_95gfugy",
+        "template_6e2l2e8",
         form.current,
-        "Mwh3_YQiS0WAAN5Aj"
+        "0ND-VzLArtpZ5GyqT"
       )
       .then(
         (result) => {
@@ -26,25 +26,26 @@ function Contact() {
       );
   };
   return (
-    <div className="background-p4 xl:w-full xl:h-full p-16 ">
+    <div className="background-p5-about xl:w-full xl:h-full p-16 ">
       <div className="container mx-auto"></div>
       <div className="grid xl:grid-cols-2 grid-cols-1 container mx-auto relative top-12">
-        <div className="text-[#FFFFFF] my-auto">
-          <p className="text-center xl:text-[2.625rem] text-[1.5rem]">
+        <div className="text-[#FFFFFF] my-auto text-left">
+          <p className="xl:text-[2.625rem] text-[1.5rem] font-extrabold">
             {" "}
             Contact Us
           </p>
-          <p className="text-center xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
-            10/1 Soi Ramintra 117 Ramintra Rd. Minburi , Bangkok 10510
+          <p className="xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
+            Address : 10/1 Soi Ramintra 117 Ramintra Rd. <br />
+            Minburi , Bangkok 10510
           </p>
-          <p className="text-center xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
-            083-101-8704 Mr.Nutdanai Pulkert (Few)
+          <p className="xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
+            Mobile : 083-101-8704 Mr.Nutdanai Pulkert (Few)
           </p>
-          <p className="text-center xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
-            sale.bitsoft
+          <p className="xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
+            ID Line : sale.bitsoft
           </p>
-          <p className="text-center xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
-            sale.bitsoft@gmail.com
+          <p className="xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
+            E-mail : sale.bitsoft@gmail.com
           </p>
         </div>
         <div className="">
@@ -66,7 +67,7 @@ function Contact() {
         </div>
         <form ref={form} onSubmit={sendEmail} className="my-auto text-center">
           <div className="text-center p-2 text-[#ffffff]">
-            ส่งอีเมลที่นี่ได้เลย!
+            สนใจติดต่อเพิ่มเติม
           </div>
           <div className="NameInput">
             <div className="w-[10rem] mx-auto text-[#FFFFFF] p-2">Name</div>

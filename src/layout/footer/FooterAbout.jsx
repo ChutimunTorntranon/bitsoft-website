@@ -14,7 +14,7 @@ function FooterAbout() {
           <p>Address : 10/1 Soi Ramintra 117, Minburi , Bangkok 10510</p>
         </div>
         <div className="xl:my-auto xl:text-[1rem] text-[0.75rem]">
-          <h3 className="xl:text-[1rem] text-[1.5rem] font-bold">Contact</h3>
+          <h3 className="xl:text-[1rem] text-[1.5rem] font-bold">Contact Us</h3>
           <p>083-101-8704 Mr.Nutdanai Pulkert (Few)</p>
           <p>Email : sale.bitsoft@gmail.com</p>
           <p>Line : sale.bitsoft</p>
