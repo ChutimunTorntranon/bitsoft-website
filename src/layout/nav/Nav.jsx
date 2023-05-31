@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import "./styleMain.css";
+import { Link, useLocation } from "react-router-dom";
 function Nav() {
+  const location = useLocation();
+
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="Navbar">
       <img
@@ -10,13 +14,58 @@ function Nav() {
         className="xl:w-[10rem] xl:h-[4rem] xl:ml-0 ml-5 w-[5.5rem] h-[2.5rem]"
       />
       {/* <span className="nav-logo">BitSoft Logo</span> */}
-      <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/#">Home</a>
-        <a href="/Product">Product</a>
-        <a href="/Service">Service</a>
-        <a href="/AboutUs">About</a>
-        <a href="/Contact">Contact</a>
-      </div>
+      <nav className={`nav-items ${isOpen && "open"}`}>
+        <a
+          href="/#"
+          style={
+            location.pathname === "/"
+              ? { background: "#3366f3", color: "white", borderRadius: "8px" }
+              : {}
+          }
+        >
+          Home
+        </a>
+        <a
+          href="/Product"
+          style={
+            location.pathname === "/Product"
+              ? { background: "#3366f3", color: "white", borderRadius: "8px" }
+              : {}
+          }
+        >
+          Product
+        </a>
+        <a
+          href="/Service"
+          style={
+            location.pathname === "/Service"
+              ? { background: "#3366f3", color: "white", borderRadius: "8px" }
+              : {}
+          }
+        >
+          Service
+        </a>
+        <a
+          href="/AboutUs"
+          style={
+            location.pathname === "/AboutUs"
+              ? { background: "#3366f3", color: "white", borderRadius: "8px" }
+              : {}
+          }
+        >
+          About
+        </a>
+        <a
+          href="/Contact"
+          style={
+            location.pathname === "/Contact"
+              ? { background: "#3366f3", color: "white", borderRadius: "8px" }
+              : {}
+          }
+        >
+          Contact
+        </a>
+      </nav>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
         onClick={() => setIsOpen(!isOpen)}
