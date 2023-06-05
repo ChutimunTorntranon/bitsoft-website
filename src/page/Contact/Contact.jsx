@@ -1,7 +1,16 @@
 import React, { useRef } from "react";
 import Footer2 from "../../layout/footer/Footer2";
 import emailjs from "@emailjs/browser";
+import {ToastContainer,toast} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 function Contact() {
+
+  const Notify = () => {
+    toast.success("Thank you for contacting us.", {
+      position: toast.POSITION.TOP_RIGHT
+    })
+  }
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,7 +27,10 @@ function Contact() {
         (result) => {
           console.log(result.text);
           console.log("message_sent");
-          window.location.reload();
+          setTimeout(function(){
+            window.location.reload();
+          },3000)
+          
         },
         (error) => {
           console.log(error.text);
@@ -29,24 +41,26 @@ function Contact() {
     <>
     <div className="background-p5-about xl:w-full xl:h-full p-16 ">
       <div className="container mx-auto"></div>
-      <div className="grid xl:grid-cols-2 grid-cols-1 container mx-auto relative top-12">
+      <div className="grid ipad:mt-10 xl:grid-cols-2 ipad:grid-cols-2 grid-cols-1 container mx-auto relative top-12">
         <div className="text-[#FFFFFF] my-auto text-left xl:ml-14">
-          <p className="xl:text-[2.625rem] text-[1.5rem] font-extrabold">
+          <p className="xl:text-[2.625rem] ipad:text-center ipad:text-[2rem] text-[1.5rem] font-extrabold">
             {" "}
             Contact Us
           </p>
-          <p className="xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
-            Address : 10/1 Soi Ramintra 117 Ramintra Rd. <br />
-            Minburi , Bangkok 10510
+          <p className="xl:text-[1.5rem] ipad:text-[1rem] text-0.75 xl:p-0 p-3">
+            Address : <span className="text-[#F9CC07]">10/1 Soi Ramintra 117 Ramintra Rd. <br />
+            Minburi , Bangkok 10510</span>
           </p>
-          <p className="xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
-            Mobile : 083-101-8704 Mr.Nutdanai Pulkert (Few)
+          <p className="xl:text-[1.5rem] ipad:text-[1rem] text-0.75 xl:p-0 p-3">
+            Mobile : <span className="text-[#F9CC07]">083-101-8704 Mr.Nutdanai Pulkert (Few)
+              </span>
+              
           </p>
-          <p className="xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
-            ID Line : sale.bitsoft
+          <p className="xl:text-[1.5rem] ipad:text-[1rem] text-0.75 xl:p-0 p-3">
+            ID Line : <span className="text-[#F9CC07]">sale.bitsoft</span>
           </p>
-          <p className="xl:text-[1.5rem] text-0.75 xl:p-0 p-3">
-            E-mail : sale.bitsoft@gmail.com
+          <p className="xl:text-[1.5rem] ipad:text-[1rem] text-0.75 xl:p-0 p-3">
+            E-mail : <span className="text-[#F9CC07]">sale.bitsoft@gmail.com</span>
           </p>
         </div>
         <div className="">
@@ -58,16 +72,16 @@ function Contact() {
         </div>
       </div>
       <div className="container mx-auto h-[10rem]"></div>
-      <div className="grid xl:grid-cols-2 grid-cols-1 container mx-auto">
-        <div className="text-[#FFFFFF]">
+      <div className="grid xl:grid-cols-2  ipad:grid-cols-2 grid-cols-1 container mx-auto ipad:relative ipad:-top-10">
+        <div className="text-[#FFFFFF] ">
           <img
             src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/Email+campaign-amico.png"
-            className="xl:w-[30rem] xl:h-[30rem] w-[20rem] h-[18rem] p-3 mx-auto"
+            className="xl:w-[30rem] xl:h-[30rem] w-[20rem] h-[18rem] p-3 mx-auto ipad:relative ipad:top-[25%]"
             alt=""
           />
         </div>
         <form ref={form} onSubmit={sendEmail} className="my-auto text-center">
-          <div className="text-center p-2 text-[#ffffff]">
+          <div className="text-center p-2 text-[#F9CC07]">
             สนใจติดต่อเพิ่มเติม
           </div>
           <div className="NameInput">
@@ -118,9 +132,10 @@ function Contact() {
               className="rounded-xl w-[20rem] h-[6rem] bg-slate-100 text-[0.75rem] xl:-ml-[0rem] -ml-[1.75rem]"
             />
           </div>
-          <button class="m-5 bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+          <button class="m-5 bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onClick={Notify}>
             Send
           </button>
+          <ToastContainer/>
         </form>
       </div>
     </div>

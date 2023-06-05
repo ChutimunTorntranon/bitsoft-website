@@ -3,7 +3,7 @@ import Footer from "../../layout/footer/Footer";
 function ServiceMobile() {
   return (
     <>
-      <div className="2xl:background-p2 xl:background-p2 bg-mobile bg-contain w-full xl:h-[53.5rem] ipad:h-[53.5rem]">
+      <div className="2xl:background-p2 xl:background-p2 bg-mobile bg-contain w-full xl:h-[53.5rem] ipad:h-[59.5rem]">
         <div className="mx-auto container text-center font-extrabold xl:text-[2.5rem] text-[1.625rem] text-[#14357E] xl:mt-0  xl:relative xl:top-28 ipad:relative ipad:top-[5rem] ipad:text-[2.5rem] ipad:p-5 relative top-16">
           SERVICES
         </div>

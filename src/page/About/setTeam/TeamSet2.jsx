@@ -2,10 +2,10 @@ import React from "react";
 
 function TeamSet2() {
   return (
-    <div className="grid xl:grid-cols-4 ipad:grid-cols-4 grid-cols-1 ipad:h-[15rem] container mx-auto xl:mt-[40rem] ipad:mt-[10rem] ipad:-ml-3">
+    <div className="grid xl:grid-cols-4 ipad:grid-cols-4 grid-cols-1 ipad:h-[15rem] container mx-auto xl:mt-[40rem] ipad:mt-[10rem] ipad:-ml-3  xl:relative xl:left-[5rem] xl:top-[3rem]">
       <div className="ipad:h-[0.5rem]">
 
-        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto">
+        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto  xl:relative xl:left-[21rem] xl:-top-[5rem]">
           <div className="xl:relative xl:mt-[-21rem] relative mt-4">
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/team/jeffy.jpg"
@@ -20,7 +20,7 @@ function TeamSet2() {
             <p className="text-center p-1">Software Engineer</p>
           </div>
         </div>
-        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto ipad:relative ipad:-top-[12.75rem] ipad:left-[12rem]">
+        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto xl:relative xl:left-[21rem] xl:-top-[5rem] ipad:relative ipad:-top-[12.75rem] ipad:left-[12rem]">
           <div className="xl:relative relative mt-4">
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/team/1932591_958911777456014_7525194901288974366_o.jpg"
@@ -35,7 +35,7 @@ function TeamSet2() {
             <p className="text-center p-1">Software Engineer</p>
           </div>
         </div>
-        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto ipad:relative ipad:-top-[25.5rem] ipad:left-[24rem]">
+        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto xl:relative xl:left-[21rem] xl:-top-[5rem] ipad:relative ipad:-top-[25.5rem] ipad:left-[24rem]">
           <div className="xl:relative relative mt-4">
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/team/few.jpg"
@@ -50,7 +50,7 @@ function TeamSet2() {
             <p className="text-center p-1">Sale Software</p>
           </div>
         </div>
-        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto ipad:relative ipad:-top-[38.25rem] ipad:left-[36rem]">
+        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto xl:relative xl:left-[21rem] xl:-top-[5rem] ipad:relative ipad:-top-[38.25rem] ipad:left-[36rem]">
           <div className="xl:relative xl:-mt-[4rem] relative mt-4">
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/team/mai.png"

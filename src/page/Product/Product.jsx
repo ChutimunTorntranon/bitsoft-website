@@ -1,7 +1,7 @@
 import React from "react";
 import "../Home/Homepage.css";
 import Footer from "../../layout/footer/Footer";
-import { Link } from "react-router-dom";
+
 function Product() {
   return (
     <>
