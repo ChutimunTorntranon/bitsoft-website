@@ -7,7 +7,7 @@ function About() {
     <>
       <div className="background-p5-about xl:w-full w-full xl:h-full xl:p-16 p-5">
         <div className="container mx-auto h-[0rem]"></div>
-        <div className="grid grid-cols-2 container gap-5 mx-auto mt-6 relative top-10">
+        <div className="grid grid-cols-2 container gap-5 mx-auto mt-6 xl:relative xl:top-24 relative top-10">
           <div className="text-[#fefefe]">
             <p className="text-center xl:text-[2.625rem] text-[1.25rem] xl:mt-[8rem]">
               We are <span className="text-[#F9CC07]">BITSOFT</span>

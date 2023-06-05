@@ -5,26 +5,26 @@ import { Link } from "react-router-dom";
 function Product() {
   return (
     <>
-      <div className="background-productpage w-full xl:h-[46.25rem] h-screen p-10">
+      <div className="background-productpage w-full xl:h-[53.25rem] h-screen p-10">
         <div className="mx-auto text-[#ffff] container xl:relative xl:top-20 relative top-12">
-          <p className="text-center xl:text-[3.625rem] text-[2rem]">
+          <p className="ipad:text-[3.625rem] ipad:mt-10 text-center xl:text-[3.625rem] text-[2rem]">
             My Product
           </p>
         </div>
         <div className="grid xl:grid-cols-2 grid-cols-1 container mx-auto xl:relative xl:top-10 relative ">
           <div className="text-[#ffff]  my-auto relative top-12">
-            <div className="text-center xl:text-[2.625rem] text-[1.5rem] mt-5 leading-10">
+            <div className="ipad:p-5 ipad:text-[2rem] text-center xl:text-[2.625rem] text-[1.5rem] mt-5 leading-10">
               Suisei Production
               <br />
               Control System
             </div>
-            <div className="text-center mt-5 xl:text-[1.5rem] text-[1.25rem]">
+            <div className="ipad:p-5 ipad:text-[1.5rem] text-center mt-5 xl:text-[1.5rem] text-[1.25rem]">
               Software ที่พัฒนาเพื่อใช้ในอุตสาหกรรมการผลิต <br />
               เพื่อพัฒนาโรงงานให้เป็น Smart Factory 4.0 <br />
               สามารถ Monitor Control สายการผลิตแบบ Real Time
             </div>
             <div className="">
-              <div className="grid grid-cols-4 text-center mt-5 xl:x-28 mx-auto xl:gap-[5rem] xl:ml-0 -ml-6 gap-[3rem]">
+              <div className="grid grid-cols-4 text-center mt-5 xl:x-28 mx-auto xl:gap-[5rem] xl:ml-0 ipad:ml-10 -ml-6 gap-[3rem]">
                 <div className="xl:w-[5rem] xl:h-[5rem] w-[5rem] h-[3rem]">
                   <img
                     className="w-[5rem] h-[5rem] mx-auto xl:hover:scale-110 xl:duration-1000"

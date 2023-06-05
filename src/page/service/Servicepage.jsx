@@ -1,7 +1,7 @@
 import React from "react";
 function Servicepage() {
   return (
-    <div className="2xl:background-p2 xl:background-p2 bg-mobile bg-cover w-full xl:h-screen h-[18rem] p-16 md:mt-[10rem] xl:mt-[34.15rem] 2xl:mt-[30rem] mt-36">
+    <div className="2xl:background-p2 xl:background-p2 bg-mobile bg-cover w-full xl:h-[48rem] h-[18rem] p-16 md:mt-[10rem] xl:mt-[34.15rem] 2xl:mt-[30rem] mt-36">
       <div className="mx-auto container text-center font-extrabold xl:text-[3.25rem] md:text-[2rem] text-[2.625rem] text-[#14357E] xl:relative xl:top-5 relative -top-10">
         SERVICES
       </div>

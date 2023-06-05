@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-
+import Footer2 from "../../layout/footer/Footer2";
 import emailjs from "@emailjs/browser";
 function Contact() {
   const form = useRef();
@@ -26,10 +26,11 @@ function Contact() {
       );
   };
   return (
+    <>
     <div className="background-p5-about xl:w-full xl:h-full p-16 ">
       <div className="container mx-auto"></div>
       <div className="grid xl:grid-cols-2 grid-cols-1 container mx-auto relative top-12">
-        <div className="text-[#FFFFFF] my-auto text-left">
+        <div className="text-[#FFFFFF] my-auto text-left xl:ml-14">
           <p className="xl:text-[2.625rem] text-[1.5rem] font-extrabold">
             {" "}
             Contact Us
@@ -123,6 +124,10 @@ function Contact() {
         </form>
       </div>
     </div>
+      <div>
+        <Footer2/>
+      </div>
+    </>
   );
 }
 
