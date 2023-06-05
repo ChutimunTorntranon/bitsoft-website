@@ -4,7 +4,7 @@ function Component3() {
   return (
     <div>
       <div className="grid grid-cols-2 container mx-auto mt-[-8rem]">
-        <div className="mt-40 xl:mx-auto xl:my-auto marker:container text-left font-extrabold xl:text-[2.625rem] md:text-[1.40rem] text-[1rem] text-[#FF4C4C] md:mt-[16rem]">
+        <div className="ipad:ml-20 mt-40 xl:mx-auto xl:my-auto marker:container text-left font-extrabold xl:text-[2.625rem] md:text-[1.40rem] text-[1rem] text-[#FF4C4C] md:mt-[16rem]">
           ลดต้นทุนค่าใช้จ่าย
           <br />
           <span className="text-[#14357E]">ในการบริหารจัดการ</span>
