@@ -2,8 +2,8 @@ import React from "react";
 
 function TeamSet1() {
   return (
-    <div className="grid xl:grid-cols-4 grid-cols-1 container mx-auto">
-      <div className="w-full">
+    <div className="grid xl:grid-cols-4 ipad:grid-cols-4 grid-cols-1 ipad:-ml-[0.75rem] container mx-auto">
+      <div className="w-full ipad:h-[5rem]">
         <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto xl:-mt-[5rem] ">
           <div className="relative mt-1 xl:top-[10rem]">
             <img
@@ -19,7 +19,7 @@ function TeamSet1() {
             <p className="text-center p-1">CEO</p>
           </div>
         </div>
-        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto">
+        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto ipad:relative ipad:-top-[12.75rem] ipad:left-[12rem]">
           <div className="xl:mt-[-21rem] relative mt-4">
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/team/hnuy.jpg"
@@ -34,7 +34,7 @@ function TeamSet1() {
             <p className="text-center p-1">Software Engineer</p>
           </div>
         </div>
-        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto">
+        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto ipad:relative ipad:-top-[25.5rem] ipad:left-[24rem]">
           <div className=" xl:mt-[-21rem] relative mt-4">
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/team/golf.jpg"
@@ -49,7 +49,7 @@ function TeamSet1() {
             <p className="text-center p-1">Software Engineer</p>
           </div>
         </div>
-        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto">
+        <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto ipad:relative ipad:-top-[38.25rem] ipad:left-[36rem]">
           <div className="xl:mt-[-21rem] relative mt-4">
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/team/nuk.jpg"

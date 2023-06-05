@@ -5,17 +5,17 @@ import Footer from "../../layout/footer/Footer";
 function About() {
   return (
     <>
-      <div className="background-p5-about xl:w-full w-full xl:h-full xl:p-16 p-5">
+      <div className="background-p5-about xl:w-full w-full xl:h-full ipad:h-[30rem] xl:p-16 p-5">
         <div className="container mx-auto h-[0rem]"></div>
         <div className="grid grid-cols-2 container gap-5 mx-auto mt-6 xl:relative xl:top-24 relative top-10">
-          <div className="text-[#fefefe]">
-            <p className="text-center xl:text-[2.625rem] text-[1.25rem] xl:mt-[8rem]">
+          <div className="text-[#fefefe] ipad:mt-20 ipad:p-5">
+            <p className="text-center xl:text-[2.625rem] ipad:text-[2rem] text-[1.25rem] xl:mt-[8rem]">
               We are <span className="text-[#F9CC07]">BITSOFT</span>
             </p>
-            <p className="text-center xl:text-[1.5rem] text-[0.5rem]">
+            <p className="text-center xl:text-[1.5rem] ipad:text-[1rem] text-[0.5rem]">
               {" "}
               เราคือผู้พัฒนาด้าน
-              <span className="text-[#F9CC07] xl:text-[1.5rem]  text-[0.5rem]">
+              <span className="text-[#F9CC07] xl:text-[1.5rem]  ipad:text-[1rem] text-[0.5rem]">
                 &nbsp;Software Development
               </span>
               <br />
