@@ -13,7 +13,7 @@ function Component2() {
             />
           </div>
         </div>
-        <div className="xl:mx-auto xl:my-auto mt-24 marker:container text-right font-extrabold xl:text-[2.625rem] md:text-[1.40rem] text-[1rem] text-[#14357E] md:mt-[13rem]">
+        <div className="ipad:mr-10 xl:mx-auto xl:my-auto mt-24 marker:container text-right font-extrabold xl:text-[2.625rem] md:text-[1.40rem] text-[1rem] text-[#14357E] md:mt-[13rem]">
           แก้ไขปัญหาต่างๆที่เกิดจาก
           <br />
           <span className="text-[#FF4C4C]">Software</span> และ{" "}

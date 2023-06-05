@@ -5,7 +5,7 @@ function Component1() {
     <div className="background-p2 mt-[-3rem] xl:mt-0">
       <div className="grid grid-cols-2 container mx-auto mt-[5rem]">
         <div className="xl:mx-8 xl:my-20 mt-5 w-full xl:w-full ">
-          <div className="xl:mx-auto container xl:text-left font-extrabold xl:text-[2.625rem] md:text-[1.5rem] text-[1rem] text-[#14357E] md:mt-[5rem]">
+          <div className="ipad:ml-10 xl:mx-auto container xl:text-left font-extrabold xl:text-[2.625rem] md:text-[1.5rem] text-[1rem] text-[#14357E] md:mt-[5rem]">
             ทีมงานที่<span className="text-[#FF4C4C]">เชี่ยวชาญ</span>และ
             <br />
             เต็มไปด้วย<span className="text-[#FF4C4C]">ประสบการณ์</span>
