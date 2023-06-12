@@ -2,9 +2,8 @@ import React from "react";
 
 function TeamSet2() {
   return (
-    <div className="grid xl:grid-cols-4 ipad:grid-cols-4 grid-cols-1 ipad:h-[15rem] container mx-auto xl:mt-[40rem] ipad:mt-[10rem] ipad:-ml-3  xl:relative xl:left-[5rem] xl:top-[3rem]">
+    <div className="grid xl:grid-cols-4 ipad:grid-cols-4 grid-cols-1 ipad:h-[15rem] container mx-auto xl:mt-[40rem] ipad:mt-[10rem] ipad:-ml-3 xl:-left-[5rem] xl:relative xl:left-[5rem] xl:top-[3rem]">
       <div className="ipad:h-[0.5rem]">
-
         <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto  xl:relative xl:left-[21rem] xl:-top-[5rem]">
           <div className="xl:relative xl:mt-[-21rem] relative mt-4">
             <img
@@ -66,7 +65,6 @@ function TeamSet2() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }

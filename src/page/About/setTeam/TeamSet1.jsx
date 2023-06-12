@@ -2,7 +2,7 @@ import React from "react";
 
 function TeamSet1() {
   return (
-    <div className="grid xl:grid-cols-4 ipad:grid-cols-4 grid-cols-1 ipad:-ml-[0.75rem] xl:relative xl:left-[5rem] xl:top-[3rem] container mx-auto">
+    <div className="grid xl:grid-cols-4 ipad:grid-cols-4 grid-cols-1 ipad:-ml-[0.75rem] xl:relative xl:-left-[5rem] xl:top-[3rem] container mx-auto">
       <div className="w-full ipad:h-[5rem]">
         <div className="xl:w-[13.438rem] xl:h-[7.438rem] mx-auto xl:-mt-[5rem] xl:relative xl:left-[18rem] xl:-top-[3rem]">
           <div className="relative mt-1 xl:top-[10rem]">
