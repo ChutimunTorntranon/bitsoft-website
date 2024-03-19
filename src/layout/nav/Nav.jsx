@@ -8,15 +8,17 @@ function Nav() {
 
   return (
     <div className="Navbar">
-      <img
-        src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/bg-opa.png"
-        alt="BitsoftLogo"
-        className="xl:w-[10rem] xl:h-[4rem] xl:ml-0 ml-5 w-[5.5rem] h-[2.5rem] z-"
-      />
+      <Link to="/#">
+        <img
+          src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/bg-opa.png"
+          alt="BitsoftLogo"
+          className="xl:w-[10rem] xl:h-[4rem] xl:ml-0 ml-5 w-[5.5rem] h-[2.5rem] z-"
+        />
+      </Link>
       {/* <span className="nav-logo">BitSoft Logo</span> */}
       <nav className={`nav-items ${isOpen && "open"}`}>
         <Link
-          href="/#"
+          to="/#"
           style={
             location.pathname === "/"
               ? { background: "#3366f3", color: "white", borderRadius: "8px" }
@@ -26,7 +28,7 @@ function Nav() {
           Home
         </Link>
         <Link
-          href="/Product"
+          to="/Product"
           style={
             location.pathname === "/Product"
               ? { background: "#3366f3", color: "white", borderRadius: "8px" }
@@ -36,7 +38,7 @@ function Nav() {
           Product
         </Link>
         <Link
-          href="/Service"
+          to="/Service"
           style={
             location.pathname === "/Service"
               ? { background: "#3366f3", color: "white", borderRadius: "8px" }
@@ -46,7 +48,7 @@ function Nav() {
           Service
         </Link>
         <Link
-          href="/AboutUs"
+          to="/AboutUs"
           style={
             location.pathname === "/AboutUs"
               ? { background: "#3366f3", color: "white", borderRadius: "8px" }
@@ -56,7 +58,7 @@ function Nav() {
           About
         </Link>
         <Link
-          href="/Contact"
+          to="/Contact"
           style={
             location.pathname === "/Contact"
               ? { background: "#3366f3", color: "white", borderRadius: "8px" }

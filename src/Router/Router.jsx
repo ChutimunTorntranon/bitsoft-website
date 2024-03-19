@@ -13,11 +13,11 @@ function Router() {
       <Nav />
       <Routes>
         <>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/Product" element={<Product />} />
-          <Route path="/Service" element={<ServiceMobile />} />
-          <Route path="/AboutUs" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="" element={<Homepage />} />
+          <Route path="Product" element={<Product />} />
+          <Route path="Service" element={<ServiceMobile />} />
+          <Route path="AboutUs" element={<About />} />
+          <Route path="Contact" element={<Contact />} />
         </>
       </Routes>
     </>

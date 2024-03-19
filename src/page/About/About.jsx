@@ -1,11 +1,11 @@
 import React from "react";
 import "../Home/Homepage.css";
-import Team from "./Team";
+import NewTeam from "./setTeam/NewTeam";
 import Footer from "../../layout/footer/Footer";
 function About() {
   return (
     <>
-      <div className="background-p5-about xl:w-full w-full xl:h-full ipad:h-[30rem] xl:p-16 p-5">
+      <div className="background-p5-about xl:w-full w-full xl:h-full xl:p-16 p-5 bg-no-repeat ">
         <div className="container mx-auto h-[0rem]"></div>
         <div className="grid grid-cols-2 container gap-5 mx-auto mt-6 xl:relative xl:top-24 relative top-10">
           <div className="text-[#fefefe] ipad:mt-20 ipad:p-5">
@@ -33,7 +33,12 @@ function About() {
             />
           </div>
         </div>
-        <Team />
+        <div className="mt-20">
+          <h3 className="text-[#F9CC07] text-[3rem] p-5 text-center">
+            BITSOFT Team
+          </h3>
+          <NewTeam />
+        </div>
       </div>
       <Footer />
     </>

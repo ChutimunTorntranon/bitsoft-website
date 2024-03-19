@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#F5F5F5] xl:w-[100%]">
+    <div className="bg-[#F5F5F5] xl:w-[100%] xl:absolute">
       <div className="grid xl:grid-cols-2 grid-cols-1 mx-auto p-5 gap-3 container">
         <div className="xl:text-[1rem] text-[0.75rem]">
           <img
