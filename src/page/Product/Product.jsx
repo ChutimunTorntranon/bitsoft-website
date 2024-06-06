@@ -1,6 +1,7 @@
 import React from "react";
 import "../Home/Homepage.css";
 import Footer from "../../layout/footer/Footer";
+import Customer from "../customer/Customer";
 
 function Product() {
   return (
@@ -11,7 +12,7 @@ function Product() {
             My Product
           </p>
         </div>
-        <div className="grid xl:grid-cols-2 grid-cols-1 container mx-auto xl:relative xl:top-10 relative ">
+        <div className="grid xl:grid-cols-2 grid-cols-1 container mx-auto xl:relative xl:top-10 relative">
           <div className="text-[#ffff]  my-auto relative top-12">
             <div className="ipad:p-5 ipad:text-[2rem] text-center xl:text-[2.625rem] text-[1.5rem] mt-5 leading-10">
               Suisei Production
@@ -64,6 +65,36 @@ function Product() {
             <img
               src="https://bitsoft-image-video.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/icon-productpage/Dashborad+All.png"
               className="w-full h-full xl:hover:scale-110 xl:duration-1000"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="grid xl:grid-cols-4 grid-cols-1 container mx-auto xl:relative xl:top-10 relative xl:mt-28">
+          <div className="mx-auto xl:w-[14rem] xl:h-[6rem] w-[14rem] h-[3rem]">
+            <img
+              className="w-[14rem] h-[6rem] mx-auto xl:hover:scale-110 xl:duration-1000"
+              src="https://bitsoft-image-videos.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/Customer_Logo/Logo_AA.png"
+              alt=""
+            />
+          </div>
+          <div className="mx-auto xl:w-[7rem] xl:h-[6rem] w-[7rem] h-[3rem]">
+            <img
+              className="w-[7rem] h-[6rem] mx-auto xl:hover:scale-110 xl:duration-1000"
+              src="https://bitsoft-image-videos.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/Customer_Logo/Logo_BAE.png"
+              alt=""
+            />
+          </div>
+          <div className="mx-auto xl:w-[20rem] xl:h-[6rem] w-[20rem] h-[3rem]">
+            <img
+              className="w-[20rem] h-[6rem] mx-auto xl:hover:scale-110 xl:duration-1000"
+              src="https://bitsoft-image-videos.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/Customer_Logo/Logo_KAP_Dark_Full.png"
+              alt=""
+            />
+          </div>
+          <div className="mx-auto xl:w-[7rem] xl:h-[6rem] w-[7rem] h-[3rem]">
+            <img
+              className="w-[7rem] h-[6rem] mx-auto xl:hover:scale-110 xl:duration-1000"
+              src="https://bitsoft-image-videos.s3.ap-southeast-1.amazonaws.com/img-bitsoft/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A+bitsoft/Customer_Logo/Logo_SHP_-_White.png"
               alt=""
             />
           </div>
